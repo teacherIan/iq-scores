@@ -1,0 +1,70 @@
+:root {
+    --fontSize: calc(3vw + 3ch + 20px);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    overflow: hidden;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gold {
+    background-color: rgb(255, 229, 84);
+    width: 40vw;
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px dotted rgb(0, 0, 0);
+    border-radius: 200px;
+}
+
+.silver {
+    background-color: silver;
+    width: 35vw;
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    border: 10px dotted rgb(0, 0, 0);
+}
+
+.bronze {
+    background-color: #CD7F32;
+    width: 25vw;
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    border: 10px dotted rgb(0, 0, 0);
+}
+
+.name {
+    color: rgb(0, 0, 0);
+    font-size: var(--fontSize);
+}
+
+.total {
+    color: rgb(0, 0, 0);
+    font-size: var(--fontSize);
+}
+
+.logo {
+    width: 50vw;
+    opacity: .3;
+}
